@@ -6,6 +6,10 @@
         "body1": " Copyright",
         "body2": "Tienda de comercio electrónico 2023. Todos los derechos reservados.. "
     },
+    "mode":{
+        "light": "Cambiar al modo de luz",
+        "dark" :"Cambiar al modo oscuro"
+     },
     "hero":{
         "span": "DE LAS MUJERES",
         "h1" : "REBAJAS DE OTOÑO CON ESTILO",
@@ -18,35 +22,49 @@
     },
     "products": {
         "1": { 
-            "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops" ,
-            "category": "Men's Clothing",  
-            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday"  
-        },
+            "title": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles" ,
+            "category": "Ropa de Hombre",  
+            "description": "Tu mochila perfecta para el uso diario y paseos por el bosque. Guarda tu computadora portátil (hasta 15 pulgadas) en la funda acolchada, tu día a día"},
 
         "2": { 
-            "title": "Mens Casual Premium Slim Fit T-Shirts" ,
-            "category": "Men's Clothing",  
-            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday"  
-        },
+            "title": "Camisetas ajustadas premium informales para hombre" ,
+            "category": "Ropa de Hombre",  
+            "description":"Tu mochila perfecta para el uso diario y paseos por el bosque. Guarda tu computadora portátil (hasta 15 pulgadas) en la funda acolchada, tu día a día"},
 
         "3": { 
-            "title": "Mens Cotton Jacket" ,
-            "category": "Men's Clothing",  
-            "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day."  
-        },
+            "title": "Chaqueta de algodón para hombre" ,
+            "category": "Ropa de Hombre",  
+            "description": "Excelentes chaquetas de abrigo para primavera/otoño/invierno, adecuadas para muchas ocasiones, como trabajar, hacer caminatas, acampar, escalar montañas/rocas, andar en bicicleta, viajar u otras actividades al aire libre. Buena opción de regalo para usted o su familiar. Un amor de corazón cálido al Padre, esposo o hijo en este día de acción de gracias o Navidad."},
 
         "4": { 
-            "title": "Mens Casual Slim Fit" ,
-            "category": "Men's Clothing",  
-            "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description"  
-        },
+            "title": "Corte ajustado informal para hombre" ,
+            "category": "Ropa de Hombre",  
+            "description": "El color puede ser ligeramente diferente en la pantalla y en la práctica. / Tenga en cuenta que la constitución corporal varía según la persona, por lo tanto, la información detallada sobre el tamaño debe revisarse a continuación en la descripción del producto"},
 
        "15": { 
-             "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops" ,
-            "category": "Men's Clothing",  
-            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday"  
-        }
-
-      }
-
+             "title": "BIYLACLESEN Chaqueta de snowboard 3 en 1 para mujer Abrigos de invierno" ,
+            "category": "ropa de mujer",  
+            "description": "Nota: Las chaquetas son de tamaño estándar de EE. UU., elija la talla que usa habitualmente. Material: 100% poliéster; Tejido de forro desmontable: forro polar cálido. Forro funcional desmontable: agradable para la piel, ligero y cálido. Chaqueta con forro de cuello alto, lo mantiene abrigado clima frío.Bolsillos con cremallera: 2 bolsillos para las manos con cremallera, 2 bolsillos con cremallera en el pecho (suficiente para guardar tarjetas o llaves) y 1 bolsillo oculto en el interior.Bolsillos para las manos con cremallera y bolsillo oculto mantienen sus cosas seguras.Diseño humanizado: capucha ajustable y desmontable y ajustable Puño para evitar el viento y el agua, para un ajuste cómodo. El diseño desmontable 3 en 1 brinda más comodidad, puede separar el abrigo y el interior según sea necesario, o usarlos juntos. Es adecuado para diferentes estaciones y lo ayuda a adaptarse a diferentes climas. "},
+        "16": { 
+            "title": "Lock and Love Chaqueta motociclista de piel sintética con capucha extraíble para mujer" ,
+            "category": "ropa de mujer",  
+            "description": "100% POLIURETANO (cubierta) 100% POLIÉSTER (forro) 75% POLIÉSTER 25% ALGODÓN (SUÉTER), Material de piel sintética para estilo y comodidad/2 bolsillos delanteros, chaqueta de piel sintética estilo mezclilla con capucha 2 por uno, detalle de botones en la cintura/Detalle de costuras en los lados, LAVAR A MANO SOLAMENTE/NO USAR LEJÍA/SECAR AL LINEA/NO PLANCHAR"},
+        "17": { 
+            "title": "Chaqueta impermeable para mujer, cortavientos, impermeables de escalada a rayas" ,
+            "category": "ropa de mujer",  
+            "description": "Ligero y perfecto para viajes o uso casual. Manga larga con capucha, diseño de cintura con cordón ajustable. Chubasquero con cierre frontal con botón y cremallera, completamente forrado a rayas. El chubasquero tiene 2 bolsillos laterales y tiene un buen tamaño para guardar todo tipo de cosas. Cubre las caderas y la capucha es generosa pero no exagerada. La capucha forrada de algodón con cordones ajustables le da una apariencia de verdadero estilo."},
+        "18": { 
+            "title": "MBJ Camiseta de manga corta con cuello barco en V para mujer" ,
+            "category": "ropa de mujer",  
+            "description": "95% RAYÓN 5% SPANDEX, Hecho en EE. UU. o importado, No usar lejía, Tejido liviano con gran elasticidad para mayor comodidad, Acanalado en mangas y escote / Doble costura en el dobladillo inferior"},
+       "19": { 
+             "title": "Opna Humedad de manga corta para mujer" ,
+            "category": "ropa de mujer",  
+            "description": "100% poliéster, lavado a máquina, tejido entrelazado 100% poliéster catiónico, lavado a máquina y preencogido para un excelente ajuste, liviano, espacioso y altamente transpirable con tela que absorbe la humedad y ayuda a mantenerla alejada, tela suave y liviana con cómodo cuello en V y un ajuste más delgado, ofrece una silueta elegante y más femenina y mayor comodidad"},
+       "20": { 
+            "title": "DANVOUY Camiseta corta de algodón informal para mujer" ,
+            "category": "ropa de mujer",  
+            "description": "95% algodón, 5% spandex, características: informal, manga corta, estampado de letras, cuello en V, camisetas de moda, la tela es suave y algo elástica. Ocasión: informal/oficina/playa/escuela/hogar/calle. Temporada: Primavera, Verano, Otoño, Invierno"  
+   }
+    }
 }

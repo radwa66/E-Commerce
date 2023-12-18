@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 import { IoMdAdd, IoMdClose, IoMdRemove } from 'react-icons/io';
 //import cart context
 import { CartContext } from '../contexts/CartContext';
-
+import { useTranslation } from 'react-i18next'; 
 const CartItem = ({item}) => {
+   const [t, il8n] = useTranslation("global") ;
    const {removeFromCart,increaseAmount,decreaseAmount } =useContext(CartContext)
 
 
@@ -28,7 +29,7 @@ const CartItem = ({item}) => {
             className='text-sm uppercase font-medium 
             max-w-[240px] text-primary hover:underline dark:text-white important'
             >
-              {title} 
+            {t(`products.${id}.title`)}
               </Link>
               {/* remove icon */}
               <div onClick={()=>removeFromCart(id)} className='text-xl cursor-pointer'>

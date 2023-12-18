@@ -47,7 +47,7 @@ const ProductDetails = () => {
             mb-6'>
              $ {price} 
               </div>
-              <p className='mb-8'>{description}</p>
+              <p className='mb-8'> {t(`products.${id}.description`)}</p>
               <button 
               onClick={()=> addToCart(product, product.id)}
               className='bg-primary py-4 px-8 text-white'>

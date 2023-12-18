@@ -10,10 +10,10 @@ import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
+import { useTranslation } from 'react-i18next'; 
 
 const App = () => {
-
+   const [t, il8n] = useTranslation("global") ;
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -37,7 +37,7 @@ const App = () => {
           className="px-4 py-2 bg-blue-500 text-white rounded-md"
           onClick={toggleDarkMode}
         >
-          {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+          {isDarkMode ? t("mode.light") :t("mode.dark")}
         </button>
     </Header>
     <Routes>
