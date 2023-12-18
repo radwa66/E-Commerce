@@ -15,9 +15,11 @@ import { SidebarContext } from '../contexts/SidebarContext';
 
 //import cart context
 import { CartContext } from '../contexts/CartContext';
+import { useTranslation } from 'react-i18next'; 
 
 
 const Sidebar = () => {
+  const [t, il8n] = useTranslation("global") ;
   const {isOpen, handleClose} = useContext(SidebarContext);
   const {cart, clearCart, total, itemAmount}= useContext(CartContext)
  
@@ -30,7 +32,7 @@ const Sidebar = () => {
       
       <div className='flex items-center justify-between py-6 
       border-b'>
-        <div> Shopping Bag ({itemAmount})</div>
+        <div>{t('sidebar.bag')}({itemAmount})</div>
         {/* icons */}
         <div 
         onClick={handleClose}
@@ -67,7 +69,7 @@ const Sidebar = () => {
         to='/' 
         className='bg-gray-200 p-4 flex justify-center 
         items-center text-primary w-full font-medium'>
-        View Cart
+        {t('sidebar.view')}
         </Link>
         <Link
          to='/' 

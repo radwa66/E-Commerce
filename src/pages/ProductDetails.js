@@ -2,7 +2,9 @@ import React, { useContext } from 'react';
 import { ProductContext } from '../contexts/ProductContext';
 import { useParams } from 'react-router-dom';
 import { CartContext } from '../contexts/CartContext';
+import { useTranslation } from 'react-i18next'; 
 const ProductDetails = () => {
+  const [t, il8n] = useTranslation("global") ;
   //get the product id from the url
   const {id} = useParams();
   const {products} = useContext(ProductContext)
@@ -49,7 +51,7 @@ const ProductDetails = () => {
               <button 
               onClick={()=> addToCart(product, product.id)}
               className='bg-primary py-4 px-8 text-white'>
-                Add to cart
+                {t("details.add")}
                 </button>
             </div> 
         </div>

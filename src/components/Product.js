@@ -8,8 +8,9 @@ import {BsEyeFill, BsPlus} from 'react-icons/bs'
  
 //import cart context
 import { CartContext } from '../contexts/CartContext';
-
+import { useTranslation } from 'react-i18next'; 
 const Product = ({product}) => {
+  const [t, il8n] = useTranslation("global") ;
 
   const {addToCart} = useContext(CartContext)
   

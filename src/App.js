@@ -11,6 +11,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 
+
 const App = () => {
 
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -31,6 +32,7 @@ const App = () => {
   return <div className='overflow-hidden dark:bg-primary dark:text-white '>
    <Router>
     <Header >
+    
         <button
           className="px-4 py-2 bg-blue-500 text-white rounded-md"
           onClick={toggleDarkMode}

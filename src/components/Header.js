@@ -8,10 +8,16 @@ import { Link } from 'react-router-dom';
 
 //import logo
 import Logo from '../img/logo.svg';
-
+import { useTranslation } from 'react-i18next'; 
 
 
  const Header = ({children}) => {
+  //multi language
+ const [t, il8n] = useTranslation("global") ;
+ const handlechangeLanguage = (lang) =>{
+  il8n.changeLanguage(lang);
+ };
+
 //header state
  const [isActive, setIsActive] = useState(false);
  const {isOpen,setIsOpen} = useContext(SidebarContext);
@@ -38,6 +44,11 @@ useEffect(()=> {
         </Link>
 
         {children}
+        {/* multi language */}
+        <div className=''>
+        <button className='px-4 py-2 bg-blue-500 text-white rounded-md mx-3' onClick={()=> handlechangeLanguage("en")}>English</button>
+        <button className='px-4 py-2 bg-blue-500 text-white rounded-md' onClick={()=> handlechangeLanguage("es")}>Spanish</button>
+      </div>
       {/* cart */}
       <div onClick={() => setIsOpen(!isOpen)} 
       className='cursor-pointer flex relative '>
@@ -49,7 +60,9 @@ useEffect(()=> {
         {itemAmount}
         </div>
         </div>
+     
         </div>
+   
     </header>
   );
 };

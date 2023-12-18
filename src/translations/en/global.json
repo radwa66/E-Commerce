@@ -1,0 +1,52 @@
+{
+    "details": {
+        "add": "Add to cart "
+    },
+    "footer":{
+        "body1": " Copyright",
+        "body2": "Ecommerce Shop 2023. All rights reserved.. "
+    },
+    "hero":{
+        "span": "WOMENS",
+        "h1" : "AUTUMN SALE STYLISH ",
+        "link" : "Discover More",
+        "trend" : "New Trend"
+    },
+    "sidebar":{
+        "bag": "Shopping bag",
+        "view" : "View Cart"
+    },
+    "products": {
+        "1": { 
+            "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops" ,
+            "category": "Men's Clothing",  
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday"  
+        },
+
+        "2": { 
+            "title": "Mens Casual Premium Slim Fit T-Shirts" ,
+            "category": "Men's Clothing",  
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday"  
+        },
+
+        "3": { 
+            "title": "Mens Cotton Jacket" ,
+            "category": "Men's Clothing",  
+            "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day."  
+        },
+
+        "4": { 
+            "title": "Mens Casual Slim Fit" ,
+            "category": "Men's Clothing",  
+            "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description"  
+        },
+
+       "15": { 
+             "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops" ,
+            "category": "Men's Clothing",  
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday"  
+        }
+
+      }
+
+}
