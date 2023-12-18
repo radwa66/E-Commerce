@@ -26,7 +26,7 @@ const CartItem = ({item}) => {
             <Link 
             to={`/product/${id}`}
             className='text-sm uppercase font-medium 
-            max-w-[240px] text-primary hover:underline'
+            max-w-[240px] text-primary hover:underline dark:text-white important'
             >
               {title} 
               </Link>
@@ -41,7 +41,7 @@ const CartItem = ({item}) => {
             {/* qty */}
             <div className='flex flex-1 max-w-[100px]
             items-center h-full border
-            text-primary font-medium'>
+            text-primary font-medium dark:text-white important'>
               {/* minus icon*/}
               <div   onClick={() => decreaseAmount(id)} 
               className='flex-1 h-full flex justify-center

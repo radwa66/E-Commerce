@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return(
     <section className='h-[800px] bg-no-repeat 
-    bg-center bg-cover bg-hero py-24 '>
+    bg-center bg-cover bg-hero py-24 dark:text-primary important '>
       <div className='container mx-auto flex justify-around h-full'>
        {/* text */}
        <div className='flex flex-col justify-center'>

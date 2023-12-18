@@ -11,7 +11,7 @@ import Logo from '../img/logo.svg';
 
 
 
- const Header = () => {
+ const Header = ({children}) => {
 //header state
  const [isActive, setIsActive] = useState(false);
  const {isOpen,setIsOpen} = useContext(SidebarContext);
@@ -25,8 +25,8 @@ useEffect(()=> {
 })
 
   return (
-    <header className={`${isActive? 'bg-white py-4 shadow-md' : 'bg-none py-6'} 
-    fixed w-full z-10 transition-all`}>
+    <header className={`${isActive? 'bg-white py-4 shadow-md dark:bg-primary important' : 'bg-none py-6'} 
+    fixed w-full z-10 transition-all` }>
 
       <div className='container mx-auto flex items-baseline
       justify-between h-full'>
@@ -36,6 +36,8 @@ useEffect(()=> {
           <img className='w-[40px]' src={Logo} alt='' />
           </div>
         </Link>
+
+        {children}
       {/* cart */}
       <div onClick={() => setIsOpen(!isOpen)} 
       className='cursor-pointer flex relative '>
@@ -43,7 +45,7 @@ useEffect(()=> {
        <div className='bg-red-500 absolute -right-2
        -bottom-2 text-[12px] w-[18px] h-[18px]
        text-white rounded-full flex justify-center
-        items-center'>
+        items-center '>
         {itemAmount}
         </div>
         </div>

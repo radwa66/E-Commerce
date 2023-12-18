@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class', // Enable the class-based dark mode
   theme: {
     fontFamily: {
       primary: 'Poppins',
